@@ -7,6 +7,9 @@ Simple web app to generate QR codes with:
 - QR eye/finder styling (outer/inner shapes and colors)
 - one-click eye style presets (classic, soft rounded, circular eyes, dot matrix, and more)
 
+Screenshot:
+![image](./images/qr-app-screenshot.png)
+
 ## Tech Stack
 
 - Frontend: Svelte + Vite + `qrcode`
@@ -16,7 +19,7 @@ Simple web app to generate QR codes with:
 - `frontend` - standalone Svelte UI (QR generation runs in browser)
 - `backend` - optional legacy Go server (no longer required)
 
-## Frontend Run
+## Run
 
 ```bash
 cd frontend
